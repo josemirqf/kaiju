@@ -1,368 +1,364 @@
 ---  
 
-# **KAIJU NO. 8**
+# 🛡️ **KAIJU NO. 8**
 ---  
 
-**OPERACIÓN: DEFENSA CORP**  
-Guía Visual Completa · Cómo Jugar y Soluciones
-Contiene instrucciones detalladas, capturas del menú,
-solución paso a paso y todos los secretos del juego.  
-
-Índice  
-• 1. ¿Cómo ejecutar el juego?  
-• 2. La pantalla de título  
-• 3. Cómo funciona el menú interactivo  
-• 4. La barra de estado — ¿qué te dice?  
-• 5. El mapa completo — 5 lugares, 15 zonas  
-• 6. Todos los objetos y dónde conseguirlos  
-• 7. Solución rápida — 6 pasos para ganar  
-• 8. Solución completa — todos los objetos  
-• 9. El combate final explicado  
-• 10. Respuestas del sistema cuando te equivocas  
-• 11. Preguntas frecuentes  
+## **OPERATION: DEFENSE CORP** > **Complete Visual Guide · How to Play and Solutions** > Contains detailed instructions, menu screenshots, step-by-step walkthrough, and all game secrets.
 
 ---
-#### 1. **¿Cómo ejecutar el juego?**  
-Antes de jugar, necesitas dar permiso de ejecución al archivo. Abre una terminal en la carpeta donde guardaste el archivo y escribe estos dos comandos:
 
-### **Paso 1 — Dar permisos de ejecución (solo la primera vez)**
-**```chmod +x kaiju_no8.sh```**
-### Paso 2 — Lanzar el juego
-**```./kaiju_no8.sh```**
-
-### **Alternativa directa con bash**
-**```bash kaiju_no8.sh```**
-
-#### ✓  Requisitos del sistema  
-• Linux con Bash 4.0 o superior (Ubuntu, Debian, Fedora, Arch, etc.)  
-• Terminal con soporte de colores (la mayoría las tienen por defecto)  
-• No necesita instalar nada adicional
+### 📑 Index
+* [1. How to run the game?](#1-how-to-run-the-game)
+* [2. The title screen](#2-the-title-screen)
+* [3. How the interactive menu works](#3-how-the-interactive-menu-works)
+* [4. The status bar — what does it tell you?](#4-the-status-bar--what-does-it-tell-you)
+* [5. The complete map — 5 locations, 15 zones](#5-the-complete-map--5-locations-15-zones)
+* [6. All items and where to find them](#6-all-items-and-where-to-find-them)
+* [7. Quick solution — 6 steps to win](#7-quick-solution--6-steps-to-win)
+* [8. Full walkthrough — all items](#8-full-walkthrough--all-items)
+* [9. The final combat explained](#9-the-final-combat-explained)
+* [10. System responses when you make a mistake](#10-system-responses-when-you-make-a-mistake)
+* [11. Frequently Asked Questions](#11-frequently-asked-questions)
 
 ---
-#### 2. La pantalla de título
-Al iniciar el juego, verás el logo ASCII de Kaiju No. 8 en rojo brillante y un mensaje de presentación. Esta pantalla te explica la premisa: eres Kafka Hibino y debes detener un kaiju que amenaza la ciudad de Tachikawa.  
-LO QUE VERÁS AL INICIAR
- 
-#### (Logo ASCII grande en rojo)
+# 🚀 1. How to run the game?
+---  
 
-  **╔══ OPERACIÓN: DEFENSA CORP — v2.0 ══╗**  
-  Eres Kafka Hibino, miembro de la Defensa Corp.  
-  → Elige las opciones del menú escribiendo su número.
+Before playing, you need to grant execution permissions to the file.  
+Open a terminal in the folder where you saved the file and run:
 
-  [ Presiona ENTER para comenzar la misión... ]
+**Step 1 — Grant execution permissions (only the first time)** `chmod +x kaiju_no8.sh`
 
-Pulsa ENTER para comenzar. El juego te llevará directamente a la primera zona jugable: la 
-Entrada Principal de la Base de Defensa Corp.
+**Step 2 — Launch the game** `./kaiju_no8.sh`
+
+**Direct alternative with Bash** `bash kaiju_no8.sh`
+
+---
+
+## ✓ System Requirements
+
+- 🐧 **Linux with Bash 4.0 or higher** (Ubuntu, Debian, Fedora, Arch, etc.)
+
+- 🖥️ **Terminal with color support** (most have it by default)
+
+- 📦 **No additional installation required**
+---
+# 🎮 2. The Title Screen
+---  
+
+Upon starting the game, you will see the **Kaiju No. 8 ASCII logo** in bright red and a presentation message.  
+This screen explains the premise: you are **Kafka Hibino** and you must stop a **kaiju threatening the city of Tachikawa**.
+
+### WHAT YOU WILL SEE AT STARTUP
+
+
+██╗  ██╗ █████╗ ██╗  ██╗   ██╗   ██╗ ...
+(Large ASCII Logo in red)
+
+╔══ OPERATION: DEFENSE CORP — v2.0 ══╗
+You are Kafka Hibino, a member of the Defense Corp.
+→ Choose the menu options by typing their number.
+
+Press **ENTER** to begin.
+
+#### The game will take you directly to the first playable zone:  
+#### **Defense Corp Base Main Entrance.**
 
 ---  
-#### 3. Cómo funciona el menú interactivo  
-Este juego funciona con un sistema de menú numerado. En cada zona que visites, el juego te mostrará automáticamente qué puedes hacer. Solo tienes que escribir el número de la opción que quieres elegir y pulsar ENTER.  
-Ejemplo de menú real del juego  
-┌─ ¿QUÉ HACES? ──────────────────────────────────  
-1)  📋  Tomar el Manual Táctico Clase-S ★
-2)  🔫  Ir a la Armería
-3)  ✈️   Ir al Hangar
-4)  🔙  Volver a la Base
-5)  🎒  Ver inventario
+# 3. How the interactive menu works  
+---  
+
+This game operates using a numbered menu system. In every zone you visit, the game will automatically show you what you can do. You just need to type the number of the option you want to choose and press ENTER.  
+Real in-game menu example  
+
+┌─ WHAT DO YOU DO? ──────────────────────────────  
+1)  📋  Take the Class-S Tactical Manual ★
+2)  🔫  Go to the Armory
+3)  ✈️   Go to the Hangar
+4)  🔙  Return to Base
+5)  🎒  View inventory
   
  └────────────────────────────────────────────────
 
-  HIBINO ▶ Elige [1-5]: _
+  HIBINO ▶ Choose [1-5]: _
 
-En este ejemplo, si quieres tomar el manual, escribes  1 y pulsas ENTER. Así de sencillo.  
+In this example, if you want to take the manual, you type 1 and press ENTER. It's that simple.  
 
-El significado de los colores en el menú  
-Cada tipo de opción tiene un color distinto para que de un vistazo sepas qué hace:  
-COLOR            QUÉ SIGNIFICA  
-🟡 Amarillo      Recoger un objeto del entorno  
-⚪ Blanco        Moverte a una zona dentro del mismo lugar  
-🔵 Azul          Viajar a una localización completamente diferente  
-🔴 Rojo          Acción de combate (atacar al enemigo)  
-⚫ Gris          Ver tu inventario, el mapa o la ayuda
+The meaning of the colors in the menu  
+Each type of option has a different color so you know what it does at a glance:  
 
+| Color | Meaning |
+| :---: | :--- |
+| 🟡 **Yellow** | Pick up an item from the environment |
+| ⚪ **White** | Move to a zone within the same location |
+| 🔵 **Blue** | Travel to a completely different location |
+| 🔴 **Red** | Combat action (attack the enemy) |
+| ⚫ **Grey** | View your inventory, map, or help |  
 
-¿Puedo escribir texto en lugar de números?
-Sí. Si prefieres escribir comandos en lugar de usar el menú, también funcionan:
-TEXTO
-EQUIVALENTE A...
-inventario  (o inv)
-Ver tus objetos recogidos
-mapa
-Ver el mapa táctico con todas las localizaciones
-ayuda  (o help o ?)
-Ver el manual rápido del juego
-salir  (o exit o quit)
-Terminar la partida
+#### Can I type text instead of numbers?  
+Yes. If you prefer to type commands instead of using the menu, they also work:  
 
-⚠  Importante
-Si escribes algo que el juego no entiende, un personaje del anime
-te responderá con un mensaje gracioso. ¡Son 15 frases distintas y aleatorias!
-El juego te recordará que uses el menú con números.
+| TEXT | EQUIVALENT TO... |
+| :--- | :--- |
+| `inventory` (or `inv`) | View your collected items |
+| `map` | View the tactical map with all locations |
+| `help` (or `?`) | View the game's quick manual |
+| `exit` (or `quit`) | End the game |  
 
-4. La barra de estado — ¿qué te dice?
-En la parte superior de cada pantalla hay una barra de estado en fondo negro que siempre te muestra información clave:
-  📍 Base de Defensa Corp  ›  Armería   🎒 Objetos: 2   👣 Pasos: 7  
+`⚠ Important
+If you type something the game doesn't understand, a character from the anime
+will respond with a funny message. There are 15 different random phrases!
+The game will remind you to use the numbered menu.`
 
-ELEMENTO
-QUÉ INDICA
-📍 Nombre
-El lugar donde estás ahora mismo
-› Zona
-La subzona específica dentro de ese lugar
-🎒 Objetos: N
-Cuántos objetos llevas en el inventario (máximo 10)
-👣 Pasos: N
-Cuántas acciones has realizado desde el inicio
+---
+# **4. The status bar — what does it tell you?** ---  
+---  
 
+At the top of each screen, there is a status bar with a black background that always shows you key information:
+``  📍 Defense Corp Base  ›  Armory   🎒 Items: 2   👣 Steps: 7  ``
 
-5. El mapa completo — 5 lugares, 15 zonas
-El juego tiene 5 localizaciones principales. Cada una contiene 3 zonas internas. Puedes moverte libremente entre todas sin ninguna restricción (excepto que en la Guarida necesitas la Esencia para ganar).
-PASO LOC 1  🏢  Base de Defensa Corp
-   Punto de inicio del juego. Zona segura con equipamiento básico.
-     ▸ Entrada principal  — Aquí encuentras el Manual Táctico Clase-S
-     ▸ Armería            — Rifle Anti-Kaiju y Armadura Ligera Corp
-     ▸ Hangar             — Leno Ichikawa te da la pista clave del juego
+| ELEMENT | WHAT IT INDICATES |
+| :--- | :--- |
+| 📍 **Name** | The location where you are right now |
+| › **Zone** | The specific sub-zone within that location |
+| 🎒 **Items: N** | How many items you have in your inventory (maximum 10) |
+| 👣 **Steps: N** | How many actions you have taken since the start |
 
-PASO LOC 2  🏙️  Ciudad de Tachikawa
-   Ciudad bajo alerta de kaiju. Tiene suministros útiles.
-     ▸ Mercado clandestino — Poción de Regeneración y Granada Sónica
-     ▸ Hospital            — Botiquín de Campo y pista confirmada de la Esencia
-     ▸ Azotea              — Vista panorámica con ASCII art de la ciudad
+---  
+# 🗺️ 5. The Complete Map  
+---  
 
-PASO LOC 3  ☠️  Zona Contaminada Norte  ★ ZONA CLAVE
-   Zona devastada. Aquí está el objeto necesario para ganar el juego.
-     ▸ Ruinas       — Escudo Anti-Corrosión entre los escombros
-     ★ Laboratorio  — LA ESENCIA DE KAIJU CRISTALIZADA (objeto clave)
-     ▸ Cráter       — Zona de impacto con ASCII art del cráter kaiju
+> **5 locations, 15 zones.** The game has 5 main locations. Each one contains 3 internal zones. You can move freely between all of them without any restriction (except for the *Lair*, where you need the **Essence** to win).
 
-PASO LOC 4  ⚔️  Cuartel de la Élite
-   Base de los mejores soldados. Armas potentes y briefings importantes.
-     ▸ Sala de Mando  — Mina Ashiro te briefea sobre el Kaiju No. 9
-     ▸ Dojo           — Entrenamiento con Hoshina (ASCII art del dojo)
-     ▸ Arsenal Élite  — Katana Fibra-Kaiju Tipo-X y Traje Percentil 92
+---
 
-PASO LOC 5  👹  Guarida del Kaiju Final  ★ ZONA FINAL
-   Destino final. No entres al Núcleo sin la Esencia Cristalizada.
-     ▸ Entrada guarida  — Acceso con ASCII art ominoso de la guarida
-     ▸ Túnel profundo   — Te avisa si te falta la Esencia
-     ★ Núcleo Kaiju     — AQUÍ SE DERROTA AL KAIJU NO. 9
+## 🏢 LOCATION 1: Defense Corp Base
+*Starting point of the game. Safe zone with basic equipment.*
+* ▸ **Main Entrance** — Here you find the `Class-S Tactical Manual`
+* ▸ **Armory** — `Anti-Kaiju Rifle` and `Corp Light Armor`
+* ▸ **Hangar** — Reno Ichikawa gives you the key hint of the game.
 
-6. Todos los objetos y dónde conseguirlos
-Hay 10 objetos en total. Solo uno es obligatorio para ganar (marcado con ★). El resto es opcional pero enriquece la experiencia del combate final.
-ICONO
-OBJETO
-DÓNDE Y CÓMO
-📋
-Manual Táctico Clase-S
-Base → Entrada  →  opción 1 del menú
-⚔️ 
-Rifle Anti-Kaiju Tipo-07
-Base → Armería  →  opción 1 del menú
-🛡️ 
-Armadura Ligera Corp
-Base → Armería  →  opción 2 del menú
-💊
-Poción de Regeneración Kaiju
-Tachikawa → Mercado  →  opción 1 del menú
-💣
-Granada Sónica Anti-Kaiju
-Tachikawa → Mercado  →  opción 2 del menú
-💊
-Botiquín de Campo Corp
-Tachikawa → Hospital  →  opción 1 del menú
-🛡️ 
-Escudo Anti-Corrosión
-Zona Contaminada → Ruinas  →  opción 1 del menú
-⭐
-★ ESENCIA KAIJU CRISTALIZADA
-Zona Contaminada → Laboratorio  →  opción 1 del menú
-⚔️ 
-Katana Fibra-Kaiju Tipo-X
-Cuartel Élite → Arsenal Élite  →  opción 1 del menú
-🛡️ 
-Traje Percentil 92 Reforzado
-Cuartel Élite → Arsenal Élite  →  opción 2 del menú
+## 🏙️ LOCATION 2: Tachikawa City
+*City under kaiju alert. It has useful supplies.*
+* ▸ **Underground Market** — `Regeneration Potion` and `Sonic Grenade`
+* ▸ **Hospital** — `Field Medkit` and confirmed hint of the **Essence**.
+* ▸ **Rooftop** — Panoramic view with ASCII art of the city.
 
-★  LA ESENCIA ES EL ÚNICO OBJETO OBLIGATORIO
-Sin la Esencia de Kaiju Cristalizada, el Kaiju No. 9 es completamente invulnerable.
-Con ella (y solo con ella), puedes dañar su núcleo y completar la misión.
+## ☠️ LOCATION 3: Northern Contaminated Zone
+> ### ✨ KEY ZONE
+> *Devastated area. The item needed to win the game is located here.*
+* ▸ **Ruins** — `Anti-Corrosion Shield` among the debris.
+* ★ **Laboratory** — **CRYSTALLIZED KAIJU ESSENCE** 💎 (key item)
+* ▸ **Crater** — Impact zone with ASCII art of the kaiju crater.
 
-7. Solución rápida — 6 pasos para ganar
-Si quieres completar el juego de la forma más directa posible, sigue exactamente estos 6 pasos. En cada pantalla el menú te guiará con las opciones disponibles.
-⚡  RUTA MÍNIMA — 6 ACCIONES
-Inicio → Zona Contaminada → Laboratorio → tomar Esencia → Guarida → Núcleo → Atacar
+## ⚔️ LOCATION 4: Elite Headquarters
+*Base of the top soldiers. Powerful weapons and important briefings.*
+* ▸ **Command Room** — Mina Ashiro briefs you on Kaiju No. 9.
+* ▸ **Dojo** — Training with Hoshina (Dojo ASCII art).
+* ▸ **Elite Arsenal** — `Type-X Kaiju-Fiber Katana` and `92nd Percentile Suit`.
 
-#
-QUÉ VES EN PANTALLA
-QUÉ HACES TÚ
-1
-Estás en la Base de Defensa Corp — Entrada
-Elige la opción azul: 'Viajar → Zona Contaminada Norte'
-2
-Estás en Zona Contaminada Norte (menú general)
-Elige la opción blanca: 'Laboratorio abandonado ★'
-3
-Ves el cofre con la etiqueta ESENCIA
-Elige la opción amarilla: 'TOMAR ESENCIA DE KAIJU CRISTALIZADA'
-4
-Aparece '★★★ ¡OBJETO CLAVE OBTENIDO! ★★★'
-Elige la opción azul: 'Viajar → Guarida del Kaiju Final'
-5
-Estás en la Guarida del Kaiju Final
-Elige la opción blanca: '★ Núcleo Kaiju ← BATALLA FINAL'
-6
-Ves al Kaiju No. 9 y la opción de atacar
-Elige la opción ROJA: '★ ¡ATACAR al Kaiju No. 9!'
+## 👹 LOCATION 5: Final - Kaiju Lair
+> ### 🔥 FINAL ZONE
+> *Final destination. Do not enter the Core without the Crystallized Essence.*
+* ▸ **Lair Entrance** — Access with ominous ASCII art of the lair.
+* ▸ **Deep Tunnel** — Warns you if the Essence is missing.
+* ★ **Kaiju Core** — **WHERE KAIJU NO. 9 IS DEFEATED** 🏆
 
-✓  Resultado
-Se inicia la secuencia de combate animada y el Kaiju No. 9 es derrotado.
-Aparece la pantalla de VICTORIA con tu puntuación final.
+---
+# 🎒 6. Items and Equipment Guide  
+---
 
-8. Solución completa — todos los objetos
-Esta ruta recorre las 5 localizaciones en orden lógico, recoge los 10 objetos y te lleva al combate final con el mejor equipamiento posible.
+> There are **10 items** in total. Only one is mandatory to win (marked with ★). The rest are optional but will greatly facilitate the final combat.
 
-FASE 1 — Base de Defensa Corp
-Empieza aquí. Es la zona más segura y el punto de partida del juego.
-ZONA
-QUÉ HACER
-Entrada principal
-El menú te ofrece tomar el Manual Táctico Clase-S (opción amarilla). Tómalo. Después ve a la Armería.
-Armería
-Verás dos opciones amarillas: Rifle Anti-Kaiju Tipo-07 y Armadura Ligera Corp. Tómalos ambos.
-Hangar
-No hay objetos aquí, pero Leno Ichikawa te da la pista clave: 'La Esencia está en la Zona Contaminada'. Esto actualiza tu objetivo.
+| ICON | ITEM | WHERE AND HOW TO GET IT |
+| :---: | :--- | :--- |
+| 📋 | **Class-S Tactical Manual** | `Base` → `Entrance` → Option 1 |
+| ⚔️ | **Type-07 Anti-Kaiju Rifle** | `Base` → `Armory` → Option 1 |
+| 🛡️ | **Corp Light Armor** | `Base` → `Armory` → Option 2 |
+| 💊 | **Kaiju Regeneration Potion** | `Tachikawa` → `Market` → Option 1 |
+| 💣 | **Anti-Kaiju Sonic Grenade** | `Tachikawa` → `Market` → Option 2 |
+| 💊 | **Corp Field Medkit** | `Tachikawa` → `Hospital` → Option 1 |
+| 🛡️ | **Anti-Corrosion Shield** | `Contaminated Zone` → `Ruins` → Option 1 |
+| ⭐ | ★ **CRYSTALLIZED KAIJU ESSENCE** | `Contaminated Zone` → `Laboratory` → Option 1 |
+| ⚔️ | **Type-X Kaiju-Fiber Katana** | `Elite HQ` → `Elite Arsenal` → Option 1 |
+| 🛡️ | **Reinforced 92nd Percentile Suit** | `Elite HQ` → `Elite Arsenal` → Option 2 |
 
-💡  Después del Hangar
-El menú del Hangar tiene una opción azul directa a la Zona Contaminada. Úsala.
+---
 
+### ⚠️ CRITICAL MISSION ADVISORY
+> [!IMPORTANT]
+> **★ THE ESSENCE IS THE ONLY MANDATORY ITEM**
+>
+> Without the **Crystallized Kaiju Essence**, *Kaiju No. 9* is completely invulnerable. With it (and only with it), you can damage its core and successfully complete the mission.
+---  
+# ⚡ 7. Quick Solution — 6 Steps to Win  
+---  
 
+> If you want to complete the game in the most direct way possible, follow these exact 6 steps. On each screen, the menu will guide you with the available options.
 
-FASE 2 — Ciudad de Tachikawa
-Puedes ir aquí antes o después de la Zona Contaminada. Tiene 3 objetos útiles y pistas adicionales.
-ZONA
-QUÉ HACER
-Mercado clandestino
-Dos opciones amarillas disponibles: Poción de Regeneración Kaiju y Granada Sónica Anti-Kaiju. Tómalas.
-Hospital de emergencia
-La médico te da una pista sobre la Esencia y puedes tomar el Botiquín de Campo Corp (opción amarilla).
-Azotea
-Solo tiene el ASCII art de la ciudad con la señal del kaiju al norte. No hay objetos, pero confirma la dirección.
+### 🚀 MINIMUM ROUTE — 6 ACTIONS
+`Start` → `Contaminated Zone` → `Laboratory` → `Take Essence` → `Lair` → `Core` → `Attack`
 
+| # | WHAT YOU SEE ON SCREEN | WHAT YOU DO |
+| :---: | :--- | :--- |
+| **1** | You are at **Defense Corp Base — Entrance** | Choose the **BLUE** option 🔵: `Travel → Northern Contaminated Zone` |
+| **2** | You are in **Northern Contaminated Zone** (main menu) | Choose the **WHITE** option ⚪: `Abandoned Laboratory ★` |
+| **3** | You see the chest labeled **ESSENCE** | Choose the **YELLOW** option 🟡: `TAKE CRYSTALLIZED KAIJU ESSENCE` |
+| **4** | `★★★ KEY ITEM OBTAINED! ★★★` appears | Choose the **BLUE** option 🔵: `Travel → Final Kaiju Lair` |
+| **5** | You are at the **Final Kaiju Lair** | Choose the **WHITE** option ⚪: `★ Kaiju Core ← FINAL BATTLE` |
+| **6** | You see **Kaiju No. 9** and the attack option | Choose the **RED** option 🔴: `★ ATTACK Kaiju No. 9!` |
 
+---
 
-FASE 3 — Zona Contaminada Norte  ★  ZONA CLAVE
-Esta es la zona más importante del juego. Aquí está el único objeto necesario para ganar.
-ZONA
-QUÉ HACER
-Ruinas
-Hay una opción amarilla: Escudo Anti-Corrosión. Tómalo. Luego ve al Laboratorio.
-★ Laboratorio abandonado
-Verás el cofre con la etiqueta de la Esencia. EL MENÚ MOSTRARÁ: '★ TOMAR ESENCIA DE KAIJU CRISTALIZADA ← NECESARIA PARA GANAR'. Elige esa opción. Aparece la notificación '★★★ ¡OBJETO CLAVE OBTENIDO!'
-Cráter central
-Solo hay el ASCII art del cráter de impacto. No tiene objetos pero es visualmente impresionante.
+### ✓ Final Result
+> [!TIP]
+> **GUARANTEED VICTORY**
+> By following these steps, the animated combat sequence begins and **Kaiju No. 9** is defeated. The **VICTORY** screen will appear with your final score based on the number of steps taken.
+ 
+---
+# 🏆 8. Full Walkthrough — All Items  
+---  
 
-⭐  Al conseguir la Esencia
-El menú del Laboratorio cambia automáticamente: desaparece la opción de tomarla
-y aparece en su lugar una opción azul directa a la Guarida del Kaiju Final.
+> This route covers all 5 locations in logical order, collects all **10 items**, and leads you to the final battle with the best possible equipment.
 
+---
 
+### 🏢 PHASE 1 — Defense Corp Base
+*Safe starting zone and point of departure.*
 
-FASE 4 — Cuartel de la Élite
-Opcional pero recomendado. Tiene las mejores armas del juego y los NPC más carismáticos.
-ZONA
-QUÉ HACER
-Sala de Mando
-Mina Ashiro te hace el briefing del Kaiju No. 9 (percentil >96%). No hay objetos pero confirma la estrategia.
-Dojo
-Hoshina entrena. El ASCII art del dojo es uno de los más elaborados. Te indica que vayas al Arsenal.
-Arsenal Élite
-Dos opciones amarillas: Katana Fibra-Kaiju Tipo-X y Traje Percentil 92 Reforzado. Tómalos para el combate final.
+| ZONE | WHAT TO DO |
+| :--- | :--- |
+| **Main Entrance** | Take the `Class-S Tactical Manual` (option 🟡). Then go to the **Armory**. |
+| **Armory** | Take the `Type-07 Anti-Kaiju Rifle` and the `Corp Light Armor` (options 🟡). |
+| **Hangar** | Speak with **Reno Ichikawa** to update your objective: "The Essence is in the Contaminated Zone." |
+
+> [!TIP]
+> **💡 After the Hangar:** The menu will enable a direct **BLUE** 🔵 option to the *Contaminated Zone*.
+
+---
+
+### 🏙️ PHASE 2 — Tachikawa City
+*Optional. Contains 3 support items and additional hints.*
+
+| ZONE | WHAT TO DO |
+| :--- | :--- |
+| **Underground Market** | Take the `Kaiju Regeneration Potion` and the `Anti-Kaiju Sonic Grenade` (options 🟡). |
+| **Emergency Hospital** | Obtain the `Corp Field Medkit` (option 🟡) and receive a hint about the Essence. |
+| **Rooftop** | Enjoy the city **ASCII art** and confirm the Kaiju's direction to the north. |
+
+---
+
+### ☠️ PHASE 3 — Northern Contaminated Zone ★ KEY ZONE
+*The most important zone: contains the item required to win.*
+
+| ZONE | WHAT TO DO |
+| :--- | :--- |
+| **Ruins** | Take the `Anti-Corrosion Shield` (option 🟡). Then proceed to the **Laboratory**. |
+| ★ **Laboratory** | Choose: `★ TAKE CRYSTALLIZED KAIJU ESSENCE`. The message will appear: *KEY ITEM OBTAINED!* |
+| **Central Crater** | Visual zone featuring the Kaiju impact **ASCII art**. |
+
+> [!IMPORTANT]
+> **⭐ Upon obtaining the Essence:** The Laboratory menu will automatically change to offer a direct **BLUE** 🔵 route to the *Final Lair*.
+
+---
+
+### ⚔️ PHASE 4 — Elite Headquarters
+*Recommended to obtain the best combat gear.*
+
+| ZONE | WHAT TO DO |
+| :--- | :--- |
+| **Command Room** | Briefing with **Mina Ashiro** regarding Kaiju No. 9 (Percentile >96%). |
+| **Dojo** | Training with **Hoshina** (detailed ASCII art). He will send you to the **Arsenal**. |
+| **Elite Arsenal** | Take the `Type-X Kaiju-Fiber Katana` and the `Reinforced 92nd Percentile Suit` (options 🟡). |
+
+---
+
+### 👹 PHASE 5 — Final Kaiju Lair ★ FINAL BATTLE
+*Ensure you are carrying the **Crystallized Essence** before entering.*
+
+| ZONE | WHAT TO DO |
+| :--- | :--- |
+| **Lair Entrance** | If you don't have the Essence, the game will allow you to go back and find it. If you have it, advance to the **Tunnel**. |
+| **Deep Tunnel** | The game verifies your inventory. With the Essence, the **RED** 🔴 option appears: `★ ADVANCE TO THE CORE`. |
+| ★ **Kaiju Core** | **FINAL COMBAT:** Choose the **RED** 🔴 option: `★ ATTACK Kaiju No. 9 with the Essence!` |
+
+---
+# ⚔️ 9. The final combat explained  
+---  
 
 
+When you choose **'Attack'** in the *Kaiju Core* with the **Essence** in your inventory, an animated combat sequence is triggered. Here is what happens step by step:
 
-FASE 5 — Guarida del Kaiju Final  ★  BATALLA FINAL
-El destino final. Asegúrate de llevar la Esencia Cristalizada antes de entrar al Núcleo.
-ZONA
-QUÉ HACER
-Entrada de la guarida
-El ASCII art del peligro aparece aquí. Si no tienes la Esencia, el menú te dará opción de volver a conseguirla. Si la tienes, avanza al Túnel.
-Túnel profundo
-Aquí el juego comprueba si llevas la Esencia. SIN ESENCIA: el menú te advierte y te lleva a la Zona Contaminada. CON ESENCIA: aparece la opción roja '★ AVANZAR AL NÚCLEO KAIJU ← BATALLA FINAL'.
-★ Núcleo Kaiju
-Aparece el Kaiju No. 9 con su ASCII art. El menú muestra la opción roja: '★ ¡ATACAR al Kaiju No. 9 con la Esencia! ← GANAR EL JUEGO'. Elige esa opción para comenzar la secuencia de victoria.
+| # | MOMENT | WHAT YOU SEE ON SCREEN |
+| :---: | :--- | :--- |
+| **1** | **Raise the Essence** | The screen shows the Essence glowing with `INTENSE BLUE LIGHT` 🔹 |
+| **2** | **The kaiju reacts** | **Kaiju No. 9** roars. Its core reacts to the Essence's energy. |
+| **3** | **ATTACK!** | The text `!!ATTACK!!` appears in **RED** 🔴. The Essence penetrates its armor. |
+| **4** | **Rifle Bonus** | *If carrying the Rifle:* `PRECISION SHOT` message 🎯 |
+| **5** | **Katana Bonus** | *If carrying the Katana:* `FINAL SLASH` message 🗡️ |
+| **6** | **VICTORY** | The `!!! KAIJU NO. 9 ELIMINATED !!!` banner appears with stars 🌟 |
+| **7** | **End Screen** | The victory screen is displayed with the item count (**N/10**). |
 
-9. El combate final explicado
-Cuando eliges 'Atacar' en el Núcleo Kaiju con la Esencia en tu inventario, se desencadena una secuencia animada de combate. Aquí está lo que ocurre paso a paso:
-MOMENTO
-QUÉ VES EN PANTALLA
-1. Alzas la Esencia
-La pantalla muestra que la Esencia brilla con luz azul intensa
-2. El kaiju reacciona
-El Kaiju No. 9 ruge. Su núcleo reacciona a la energía de la Esencia
-3. ¡ATAQUE!
-El texto '¡¡ATAQUE!!' aparece en rojo. La Esencia penetra su coraza
-4. Bonus con Rifle
-Si llevas el Rifle Anti-Kaiju, aparece el mensaje de disparo de precisión
-5. Bonus con Katana
-Si llevas la Katana Fibra-Kaiju, aparece el mensaje de corte final
-6. VICTORIA
-Aparece el banner '¡¡¡ KAIJU NO. 9 ELIMINADO !!!' con estrellas
-7. Pantalla de fin
-Se muestra la pantalla de victoria con el recuento de objetos (N/10)
+---
 
-💡  Los objetos bonus del combate
-El Rifle y la Katana no son necesarios para ganar, pero si los llevas,
-añaden líneas de texto especiales a la animación del combate final.
-Con los 10 objetos, la secuencia es la más épica posible.
+> [!TIP]
+> **💡 Combat bonus items**
+> The Rifle and the Katana are not required to win, but if you carry them, they add special lines of text to the final combat animation. With all **10 items**, the sequence is as epic as possible. 🏆
 
+---
+# ⚠️ 10. System responses when you make a mistake  
+---  
 
-10. Las respuestas cuando te equivocas
-Si escribes algo que no es un número del menú ni un comando reconocido, el juego responde con uno de 15 mensajes aleatorios. Todos tienen referencias al universo del anime. ¡Intenta equivocarte para verlos todos!
-PERSONAJE
-LO QUE DICE
-Kafka Hibino
-'¿Eso es un kaiju o un número?'
-El Kaiju No. 8
-'...ni yo sé qué quisiste decir.'
-IA del traje
-No reconoce ese input. Usa los números del menú.
-Mina Ashiro
-Apunta a tu teclado. '¿Qué fue ESO?'
-Kaijus de nivel medio
-Se ríen de ti desde las sombras.
-Soshiro Hoshina
-'Eso no tiene ningún sentido estratégico.'
-Sistema de percentil
-Percentil del input: 0.0%. Usa el menú.
-Leno Ichikawa
-'¡Ni con el manual de la Corp lo entiendo!'
-Reno Ichikawa
-Busca ese comando... no existe en el reglamento.
-Kikoru Shinomiya
-'Parece que alguien no fue al entrenamiento.'
-Alerta de la Corp
-'Kaiju desconocido'... eres tú escribiendo cosas raras.
-Radio de la Corp
-¿Estás hablando en idioma kaiju?
-Registro de combate
-Ese input causó más daño que un Kaiju Nivel 9.
-Olas de Tachikawa
-Se ríen de tu intento.
-Director Shinomiya
-'Eso es... inaceptable, soldado.'
+> If you type something that is neither a menu number nor a recognized command, the game responds with one of **15 random messages**. All of them feature references to the anime universe. Try making a mistake to see them all!
 
-11. Preguntas frecuentes
-¿Puedo explorar en cualquier orden?
-Sí, completamente libre. No hay un orden obligatorio entre localizaciones. Puedes ir a la Guarida directamente desde el principio, aunque sin la Esencia no podrás ganar.
-¿Qué pasa si entro al Núcleo sin la Esencia?
-El juego no termina. El menú del Núcleo Kaiju mostrará opciones para volver a buscarla, y el Kaiju No. 9 te rechaza con un rugido pero no hay 'game over'. Puedes salir y conseguirla.
-¿Cuántos objetos hay en total?
-Hay 10 objetos. Solo 1 es obligatorio (la Esencia Cristalizada). Los otros 9 son opcionales y algunos añaden líneas extra en el combate final.
-¿El juego puede romperse si escribo algo raro?
-No. El sistema de entrada está diseñado para manejar cualquier input. Si no entiende lo que escribes, responde con un mensaje de personaje y te recuerda usar el menú numerado.
-¿Hay forma de ver el mapa en cualquier momento?
-Sí. Siempre puedes escribir 'mapa' o elegir la opción 🗺️ del menú (cuando aparezca en gris). El mapa muestra las 5 localizaciones, sus zonas y marca en rojo dónde estás.
-¿Cómo sé cuántos objetos me faltan?
-Escribe 'inventario' o elige la opción 🎒 del menú en cualquier momento. Abajo del inventario aparece siempre el objetivo actual: si tienes la Esencia, te dice que vayas al núcleo; si no, te dice dónde encontrarla.
-¿Puedo jugar el juego más de una vez?
-Sí. El juego no guarda progreso entre sesiones. Cada vez que ejecutas el script comienza desde cero.
+| CHARACTER | WHAT THEY SAY |
+| :--- | :--- |
+| **Kafka Hibino** | `'Is that a kaiju or a number?'` |
+| **Kaiju No. 8** | `'...even I don't know what you meant by that.'` |
+| **Suit AI** | `Input not recognized. Use the menu numbers.` |
+| **Mina Ashiro** | Points at your keyboard. `'What was THAT?'` |
+| **Mid-level Kaijus** | They laugh at you from the shadows. |
+| **Soshiro Hoshina** | `'That makes no strategic sense whatsoever.'` |
+| **Percentile System** | `Input percentile: 0.0%. Use the menu.` |
+| **Leno Ichikawa** | `'I don't even understand that with the Corp manual!'` |
+| **Reno Ichikawa** | Searches for that command... it's not in the regulations. |
+| **Kikoru Shinomiya** | `'It looks like someone skipped training.'` |
+| **Corp Alert** | `'Unknown Kaiju'... it's just you typing weird things.` |
+| **Corp Radio** | `Are you speaking in kaiju language?` |
+| **Combat Log** | `That input caused more damage than a Level 9 Kaiju.` |
+| **Tachikawa Waves** | They laugh at your attempt. |
+| **Director Shinomiya** | `'That is... unacceptable, soldier.'` |
+
+---
+
+> [!NOTE]
+> This list is randomized, so you'll have to try several times to see them all in the game! 🎮
+---  
+# ❓ 11. Frequently Asked Questions
+---  
+
+**Can I explore in any order?**
+> Yes, movement is completely free. There is no mandatory order. You can go to the *Lair* directly from the beginning, although without the **Essence**, you won't be able to win.
+
+**What happens if I enter the Core without the Essence?**
+> The game does not end. The **Kaiju Core** menu will show options to go back and find it. *Kaiju No. 9* will repel you with a roar, but there is no `game over`. You can leave and get it at any time.
+
+**How many items are there in total?**
+> There are **10 items**. Only **1 is mandatory** (the *Crystallized Essence*). The other 9 are optional, and some add extra lines of dialogue in the final combat.
+
+**Can the game break if I type something weird?**
+> No. The input system is designed to handle any text. If the game doesn't understand what you type, it will respond with a random character message and remind you to use the numbered menu.
+
+**Is there a way to see the map at any time?**
+> Yes. You can always type `map` or choose the 🗺️ option from the menu. The map shows the 5 locations, their zones, and marks in **red** where you are currently located.
+
+**How do I know how many items I'm missing?**
+> Type `inventory` or choose the 🎒 option from the menu. Below your items, your **current objective** will always appear: if you already have the Essence, it will tell you to go to the core; if not, it will remind you where to find it.
+
+**Can I play the game more than once?**
+> Of course! The game does not save progress between sessions. Every time you run the script, the adventure starts from scratch so you can try to beat your step record.
+
+---
+
+> [!TIP]
+> **Have more questions?** Check the **Quick Solution** section to see the direct path to victory. 🏆
