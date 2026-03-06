@@ -1,0 +1,368 @@
+---  
+
+# **KAIJU NO. 8**
+---  
+
+**OPERACIÓN: DEFENSA CORP**  
+Guía Visual Completa · Cómo Jugar y Soluciones
+Contiene instrucciones detalladas, capturas del menú,
+solución paso a paso y todos los secretos del juego.  
+
+Índice  
+• 1. ¿Cómo ejecutar el juego?  
+• 2. La pantalla de título  
+• 3. Cómo funciona el menú interactivo  
+• 4. La barra de estado — ¿qué te dice?  
+• 5. El mapa completo — 5 lugares, 15 zonas  
+• 6. Todos los objetos y dónde conseguirlos  
+• 7. Solución rápida — 6 pasos para ganar  
+• 8. Solución completa — todos los objetos  
+• 9. El combate final explicado  
+• 10. Respuestas del sistema cuando te equivocas  
+• 11. Preguntas frecuentes  
+
+---
+#### 1. **¿Cómo ejecutar el juego?**  
+Antes de jugar, necesitas dar permiso de ejecución al archivo. Abre una terminal en la carpeta donde guardaste el archivo y escribe estos dos comandos:
+
+### **Paso 1 — Dar permisos de ejecución (solo la primera vez)**
+**```chmod +x kaiju_no8.sh```**
+### Paso 2 — Lanzar el juego
+**```./kaiju_no8.sh```**
+
+### **Alternativa directa con bash**
+**```bash kaiju_no8.sh```**
+
+#### ✓  Requisitos del sistema  
+• Linux con Bash 4.0 o superior (Ubuntu, Debian, Fedora, Arch, etc.)  
+• Terminal con soporte de colores (la mayoría las tienen por defecto)  
+• No necesita instalar nada adicional
+
+---
+#### 2. La pantalla de título
+Al iniciar el juego, verás el logo ASCII de Kaiju No. 8 en rojo brillante y un mensaje de presentación. Esta pantalla te explica la premisa: eres Kafka Hibino y debes detener un kaiju que amenaza la ciudad de Tachikawa.  
+LO QUE VERÁS AL INICIAR
+ 
+#### (Logo ASCII grande en rojo)
+
+  **╔══ OPERACIÓN: DEFENSA CORP — v2.0 ══╗**  
+  Eres Kafka Hibino, miembro de la Defensa Corp.  
+  → Elige las opciones del menú escribiendo su número.
+
+  [ Presiona ENTER para comenzar la misión... ]
+
+Pulsa ENTER para comenzar. El juego te llevará directamente a la primera zona jugable: la 
+Entrada Principal de la Base de Defensa Corp.
+
+---  
+#### 3. Cómo funciona el menú interactivo  
+Este juego funciona con un sistema de menú numerado. En cada zona que visites, el juego te mostrará automáticamente qué puedes hacer. Solo tienes que escribir el número de la opción que quieres elegir y pulsar ENTER.  
+Ejemplo de menú real del juego  
+┌─ ¿QUÉ HACES? ──────────────────────────────────  
+1)  📋  Tomar el Manual Táctico Clase-S ★
+2)  🔫  Ir a la Armería
+3)  ✈️   Ir al Hangar
+4)  🔙  Volver a la Base
+5)  🎒  Ver inventario
+  
+ └────────────────────────────────────────────────
+
+  HIBINO ▶ Elige [1-5]: _
+
+En este ejemplo, si quieres tomar el manual, escribes  1 y pulsas ENTER. Así de sencillo.  
+
+El significado de los colores en el menú  
+Cada tipo de opción tiene un color distinto para que de un vistazo sepas qué hace:  
+COLOR            QUÉ SIGNIFICA  
+🟡 Amarillo      Recoger un objeto del entorno  
+⚪ Blanco        Moverte a una zona dentro del mismo lugar  
+🔵 Azul          Viajar a una localización completamente diferente  
+🔴 Rojo          Acción de combate (atacar al enemigo)  
+⚫ Gris          Ver tu inventario, el mapa o la ayuda
+
+
+¿Puedo escribir texto en lugar de números?
+Sí. Si prefieres escribir comandos en lugar de usar el menú, también funcionan:
+TEXTO
+EQUIVALENTE A...
+inventario  (o inv)
+Ver tus objetos recogidos
+mapa
+Ver el mapa táctico con todas las localizaciones
+ayuda  (o help o ?)
+Ver el manual rápido del juego
+salir  (o exit o quit)
+Terminar la partida
+
+⚠  Importante
+Si escribes algo que el juego no entiende, un personaje del anime
+te responderá con un mensaje gracioso. ¡Son 15 frases distintas y aleatorias!
+El juego te recordará que uses el menú con números.
+
+4. La barra de estado — ¿qué te dice?
+En la parte superior de cada pantalla hay una barra de estado en fondo negro que siempre te muestra información clave:
+  📍 Base de Defensa Corp  ›  Armería   🎒 Objetos: 2   👣 Pasos: 7  
+
+ELEMENTO
+QUÉ INDICA
+📍 Nombre
+El lugar donde estás ahora mismo
+› Zona
+La subzona específica dentro de ese lugar
+🎒 Objetos: N
+Cuántos objetos llevas en el inventario (máximo 10)
+👣 Pasos: N
+Cuántas acciones has realizado desde el inicio
+
+
+5. El mapa completo — 5 lugares, 15 zonas
+El juego tiene 5 localizaciones principales. Cada una contiene 3 zonas internas. Puedes moverte libremente entre todas sin ninguna restricción (excepto que en la Guarida necesitas la Esencia para ganar).
+PASO LOC 1  🏢  Base de Defensa Corp
+   Punto de inicio del juego. Zona segura con equipamiento básico.
+     ▸ Entrada principal  — Aquí encuentras el Manual Táctico Clase-S
+     ▸ Armería            — Rifle Anti-Kaiju y Armadura Ligera Corp
+     ▸ Hangar             — Leno Ichikawa te da la pista clave del juego
+
+PASO LOC 2  🏙️  Ciudad de Tachikawa
+   Ciudad bajo alerta de kaiju. Tiene suministros útiles.
+     ▸ Mercado clandestino — Poción de Regeneración y Granada Sónica
+     ▸ Hospital            — Botiquín de Campo y pista confirmada de la Esencia
+     ▸ Azotea              — Vista panorámica con ASCII art de la ciudad
+
+PASO LOC 3  ☠️  Zona Contaminada Norte  ★ ZONA CLAVE
+   Zona devastada. Aquí está el objeto necesario para ganar el juego.
+     ▸ Ruinas       — Escudo Anti-Corrosión entre los escombros
+     ★ Laboratorio  — LA ESENCIA DE KAIJU CRISTALIZADA (objeto clave)
+     ▸ Cráter       — Zona de impacto con ASCII art del cráter kaiju
+
+PASO LOC 4  ⚔️  Cuartel de la Élite
+   Base de los mejores soldados. Armas potentes y briefings importantes.
+     ▸ Sala de Mando  — Mina Ashiro te briefea sobre el Kaiju No. 9
+     ▸ Dojo           — Entrenamiento con Hoshina (ASCII art del dojo)
+     ▸ Arsenal Élite  — Katana Fibra-Kaiju Tipo-X y Traje Percentil 92
+
+PASO LOC 5  👹  Guarida del Kaiju Final  ★ ZONA FINAL
+   Destino final. No entres al Núcleo sin la Esencia Cristalizada.
+     ▸ Entrada guarida  — Acceso con ASCII art ominoso de la guarida
+     ▸ Túnel profundo   — Te avisa si te falta la Esencia
+     ★ Núcleo Kaiju     — AQUÍ SE DERROTA AL KAIJU NO. 9
+
+6. Todos los objetos y dónde conseguirlos
+Hay 10 objetos en total. Solo uno es obligatorio para ganar (marcado con ★). El resto es opcional pero enriquece la experiencia del combate final.
+ICONO
+OBJETO
+DÓNDE Y CÓMO
+📋
+Manual Táctico Clase-S
+Base → Entrada  →  opción 1 del menú
+⚔️ 
+Rifle Anti-Kaiju Tipo-07
+Base → Armería  →  opción 1 del menú
+🛡️ 
+Armadura Ligera Corp
+Base → Armería  →  opción 2 del menú
+💊
+Poción de Regeneración Kaiju
+Tachikawa → Mercado  →  opción 1 del menú
+💣
+Granada Sónica Anti-Kaiju
+Tachikawa → Mercado  →  opción 2 del menú
+💊
+Botiquín de Campo Corp
+Tachikawa → Hospital  →  opción 1 del menú
+🛡️ 
+Escudo Anti-Corrosión
+Zona Contaminada → Ruinas  →  opción 1 del menú
+⭐
+★ ESENCIA KAIJU CRISTALIZADA
+Zona Contaminada → Laboratorio  →  opción 1 del menú
+⚔️ 
+Katana Fibra-Kaiju Tipo-X
+Cuartel Élite → Arsenal Élite  →  opción 1 del menú
+🛡️ 
+Traje Percentil 92 Reforzado
+Cuartel Élite → Arsenal Élite  →  opción 2 del menú
+
+★  LA ESENCIA ES EL ÚNICO OBJETO OBLIGATORIO
+Sin la Esencia de Kaiju Cristalizada, el Kaiju No. 9 es completamente invulnerable.
+Con ella (y solo con ella), puedes dañar su núcleo y completar la misión.
+
+7. Solución rápida — 6 pasos para ganar
+Si quieres completar el juego de la forma más directa posible, sigue exactamente estos 6 pasos. En cada pantalla el menú te guiará con las opciones disponibles.
+⚡  RUTA MÍNIMA — 6 ACCIONES
+Inicio → Zona Contaminada → Laboratorio → tomar Esencia → Guarida → Núcleo → Atacar
+
+#
+QUÉ VES EN PANTALLA
+QUÉ HACES TÚ
+1
+Estás en la Base de Defensa Corp — Entrada
+Elige la opción azul: 'Viajar → Zona Contaminada Norte'
+2
+Estás en Zona Contaminada Norte (menú general)
+Elige la opción blanca: 'Laboratorio abandonado ★'
+3
+Ves el cofre con la etiqueta ESENCIA
+Elige la opción amarilla: 'TOMAR ESENCIA DE KAIJU CRISTALIZADA'
+4
+Aparece '★★★ ¡OBJETO CLAVE OBTENIDO! ★★★'
+Elige la opción azul: 'Viajar → Guarida del Kaiju Final'
+5
+Estás en la Guarida del Kaiju Final
+Elige la opción blanca: '★ Núcleo Kaiju ← BATALLA FINAL'
+6
+Ves al Kaiju No. 9 y la opción de atacar
+Elige la opción ROJA: '★ ¡ATACAR al Kaiju No. 9!'
+
+✓  Resultado
+Se inicia la secuencia de combate animada y el Kaiju No. 9 es derrotado.
+Aparece la pantalla de VICTORIA con tu puntuación final.
+
+8. Solución completa — todos los objetos
+Esta ruta recorre las 5 localizaciones en orden lógico, recoge los 10 objetos y te lleva al combate final con el mejor equipamiento posible.
+
+FASE 1 — Base de Defensa Corp
+Empieza aquí. Es la zona más segura y el punto de partida del juego.
+ZONA
+QUÉ HACER
+Entrada principal
+El menú te ofrece tomar el Manual Táctico Clase-S (opción amarilla). Tómalo. Después ve a la Armería.
+Armería
+Verás dos opciones amarillas: Rifle Anti-Kaiju Tipo-07 y Armadura Ligera Corp. Tómalos ambos.
+Hangar
+No hay objetos aquí, pero Leno Ichikawa te da la pista clave: 'La Esencia está en la Zona Contaminada'. Esto actualiza tu objetivo.
+
+💡  Después del Hangar
+El menú del Hangar tiene una opción azul directa a la Zona Contaminada. Úsala.
+
+
+
+FASE 2 — Ciudad de Tachikawa
+Puedes ir aquí antes o después de la Zona Contaminada. Tiene 3 objetos útiles y pistas adicionales.
+ZONA
+QUÉ HACER
+Mercado clandestino
+Dos opciones amarillas disponibles: Poción de Regeneración Kaiju y Granada Sónica Anti-Kaiju. Tómalas.
+Hospital de emergencia
+La médico te da una pista sobre la Esencia y puedes tomar el Botiquín de Campo Corp (opción amarilla).
+Azotea
+Solo tiene el ASCII art de la ciudad con la señal del kaiju al norte. No hay objetos, pero confirma la dirección.
+
+
+
+FASE 3 — Zona Contaminada Norte  ★  ZONA CLAVE
+Esta es la zona más importante del juego. Aquí está el único objeto necesario para ganar.
+ZONA
+QUÉ HACER
+Ruinas
+Hay una opción amarilla: Escudo Anti-Corrosión. Tómalo. Luego ve al Laboratorio.
+★ Laboratorio abandonado
+Verás el cofre con la etiqueta de la Esencia. EL MENÚ MOSTRARÁ: '★ TOMAR ESENCIA DE KAIJU CRISTALIZADA ← NECESARIA PARA GANAR'. Elige esa opción. Aparece la notificación '★★★ ¡OBJETO CLAVE OBTENIDO!'
+Cráter central
+Solo hay el ASCII art del cráter de impacto. No tiene objetos pero es visualmente impresionante.
+
+⭐  Al conseguir la Esencia
+El menú del Laboratorio cambia automáticamente: desaparece la opción de tomarla
+y aparece en su lugar una opción azul directa a la Guarida del Kaiju Final.
+
+
+
+FASE 4 — Cuartel de la Élite
+Opcional pero recomendado. Tiene las mejores armas del juego y los NPC más carismáticos.
+ZONA
+QUÉ HACER
+Sala de Mando
+Mina Ashiro te hace el briefing del Kaiju No. 9 (percentil >96%). No hay objetos pero confirma la estrategia.
+Dojo
+Hoshina entrena. El ASCII art del dojo es uno de los más elaborados. Te indica que vayas al Arsenal.
+Arsenal Élite
+Dos opciones amarillas: Katana Fibra-Kaiju Tipo-X y Traje Percentil 92 Reforzado. Tómalos para el combate final.
+
+
+
+FASE 5 — Guarida del Kaiju Final  ★  BATALLA FINAL
+El destino final. Asegúrate de llevar la Esencia Cristalizada antes de entrar al Núcleo.
+ZONA
+QUÉ HACER
+Entrada de la guarida
+El ASCII art del peligro aparece aquí. Si no tienes la Esencia, el menú te dará opción de volver a conseguirla. Si la tienes, avanza al Túnel.
+Túnel profundo
+Aquí el juego comprueba si llevas la Esencia. SIN ESENCIA: el menú te advierte y te lleva a la Zona Contaminada. CON ESENCIA: aparece la opción roja '★ AVANZAR AL NÚCLEO KAIJU ← BATALLA FINAL'.
+★ Núcleo Kaiju
+Aparece el Kaiju No. 9 con su ASCII art. El menú muestra la opción roja: '★ ¡ATACAR al Kaiju No. 9 con la Esencia! ← GANAR EL JUEGO'. Elige esa opción para comenzar la secuencia de victoria.
+
+9. El combate final explicado
+Cuando eliges 'Atacar' en el Núcleo Kaiju con la Esencia en tu inventario, se desencadena una secuencia animada de combate. Aquí está lo que ocurre paso a paso:
+MOMENTO
+QUÉ VES EN PANTALLA
+1. Alzas la Esencia
+La pantalla muestra que la Esencia brilla con luz azul intensa
+2. El kaiju reacciona
+El Kaiju No. 9 ruge. Su núcleo reacciona a la energía de la Esencia
+3. ¡ATAQUE!
+El texto '¡¡ATAQUE!!' aparece en rojo. La Esencia penetra su coraza
+4. Bonus con Rifle
+Si llevas el Rifle Anti-Kaiju, aparece el mensaje de disparo de precisión
+5. Bonus con Katana
+Si llevas la Katana Fibra-Kaiju, aparece el mensaje de corte final
+6. VICTORIA
+Aparece el banner '¡¡¡ KAIJU NO. 9 ELIMINADO !!!' con estrellas
+7. Pantalla de fin
+Se muestra la pantalla de victoria con el recuento de objetos (N/10)
+
+💡  Los objetos bonus del combate
+El Rifle y la Katana no son necesarios para ganar, pero si los llevas,
+añaden líneas de texto especiales a la animación del combate final.
+Con los 10 objetos, la secuencia es la más épica posible.
+
+
+10. Las respuestas cuando te equivocas
+Si escribes algo que no es un número del menú ni un comando reconocido, el juego responde con uno de 15 mensajes aleatorios. Todos tienen referencias al universo del anime. ¡Intenta equivocarte para verlos todos!
+PERSONAJE
+LO QUE DICE
+Kafka Hibino
+'¿Eso es un kaiju o un número?'
+El Kaiju No. 8
+'...ni yo sé qué quisiste decir.'
+IA del traje
+No reconoce ese input. Usa los números del menú.
+Mina Ashiro
+Apunta a tu teclado. '¿Qué fue ESO?'
+Kaijus de nivel medio
+Se ríen de ti desde las sombras.
+Soshiro Hoshina
+'Eso no tiene ningún sentido estratégico.'
+Sistema de percentil
+Percentil del input: 0.0%. Usa el menú.
+Leno Ichikawa
+'¡Ni con el manual de la Corp lo entiendo!'
+Reno Ichikawa
+Busca ese comando... no existe en el reglamento.
+Kikoru Shinomiya
+'Parece que alguien no fue al entrenamiento.'
+Alerta de la Corp
+'Kaiju desconocido'... eres tú escribiendo cosas raras.
+Radio de la Corp
+¿Estás hablando en idioma kaiju?
+Registro de combate
+Ese input causó más daño que un Kaiju Nivel 9.
+Olas de Tachikawa
+Se ríen de tu intento.
+Director Shinomiya
+'Eso es... inaceptable, soldado.'
+
+11. Preguntas frecuentes
+¿Puedo explorar en cualquier orden?
+Sí, completamente libre. No hay un orden obligatorio entre localizaciones. Puedes ir a la Guarida directamente desde el principio, aunque sin la Esencia no podrás ganar.
+¿Qué pasa si entro al Núcleo sin la Esencia?
+El juego no termina. El menú del Núcleo Kaiju mostrará opciones para volver a buscarla, y el Kaiju No. 9 te rechaza con un rugido pero no hay 'game over'. Puedes salir y conseguirla.
+¿Cuántos objetos hay en total?
+Hay 10 objetos. Solo 1 es obligatorio (la Esencia Cristalizada). Los otros 9 son opcionales y algunos añaden líneas extra en el combate final.
+¿El juego puede romperse si escribo algo raro?
+No. El sistema de entrada está diseñado para manejar cualquier input. Si no entiende lo que escribes, responde con un mensaje de personaje y te recuerda usar el menú numerado.
+¿Hay forma de ver el mapa en cualquier momento?
+Sí. Siempre puedes escribir 'mapa' o elegir la opción 🗺️ del menú (cuando aparezca en gris). El mapa muestra las 5 localizaciones, sus zonas y marca en rojo dónde estás.
+¿Cómo sé cuántos objetos me faltan?
+Escribe 'inventario' o elige la opción 🎒 del menú en cualquier momento. Abajo del inventario aparece siempre el objetivo actual: si tienes la Esencia, te dice que vayas al núcleo; si no, te dice dónde encontrarla.
+¿Puedo jugar el juego más de una vez?
+Sí. El juego no guarda progreso entre sesiones. Cada vez que ejecutas el script comienza desde cero.
